@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ConfigTool</id>
+    <version>1.0.0</version>
+    <authors>ConfigTool</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\ProjectHub\MTPS\Config\Tool\ConfigTool\ConfigTool\bin\Debug\netcoreapp3.1\ConfigTool.runtimeconfig.json" target="lib\netcoreapp3.1\ConfigTool.runtimeconfig.json" />
+    <file src="D:\ProjectHub\MTPS\Config\Tool\ConfigTool\ConfigTool\bin\Debug\netcoreapp3.1\ConfigTool.dll" target="lib\netcoreapp3.1\ConfigTool.dll" />
+  </files>
+</package>
