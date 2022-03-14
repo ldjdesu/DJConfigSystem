@@ -3,9 +3,9 @@
   <metadata>
     <id>ConfigTool</id>
     <version>1.0.0</version>
-    <authors>ConfigTool</authors>
+    <authors>DJLiu</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package Description</description>
+    <description>配置代码生成器</description>
     <dependencies>
       <group targetFramework=".NETCoreApp3.1" />
     </dependencies>

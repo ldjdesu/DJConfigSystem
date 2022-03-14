@@ -103,10 +103,10 @@ namespace ConfigTool
             {
                 Console.WriteLine(e.Message);
                 Console.WriteLine("有错误，点击任意键退出");
+                Console.ReadKey();
             }
 
             Console.WriteLine("构建成功");
-            Console.ReadKey();
         }
 
         static private string GenerateModel(Model model, string configName, string[] text, string filePath)
@@ -159,12 +159,14 @@ namespace ConfigTool
                         {
                             isArray = true;
                             i += offset * size - size;
+                            flag = 0;
                         }
                         outPut += model.GetStructEnd(structName, isArray);
                     }
                     else
                     {
                         Console.WriteLine("未能识别的类型前缀,请检查!  路径为：" + filePath + "  第" + i + "列");
+                        throw new Exception();
                     }
                 }
                 else
@@ -221,11 +223,13 @@ namespace ConfigTool
                         else
                         {
                             Console.WriteLine("未能识别的索引后缀,请检查!  路径为：" + filePath + "  第" + i + "列");
+                            throw new Exception();
                         }
                     }
                     else
                     {
                         Console.WriteLine("未能识别的索引前缀,请检查!  路径为：" + filePath + "  第" + i + "列");
+                        throw new Exception();
                     }
                 }
                 else
@@ -301,6 +305,7 @@ namespace ConfigTool
                     else
                     {
                         Console.WriteLine("未能识别的类型前缀,请检查!  路径为：" + filePath + "  第" + i + "列");
+                        throw new Exception();
                     }
                 }
                 else

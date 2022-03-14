@@ -10,3 +10,4 @@ D:\ProjectHub\MTPS\Config\Tool\ConfigTool\ConfigTool\obj\Debug\netcoreapp3.1\Con
 D:\ProjectHub\MTPS\Config\Tool\ConfigTool\ConfigTool\obj\Debug\netcoreapp3.1\ConfigTool.dll
 D:\ProjectHub\MTPS\Config\Tool\ConfigTool\ConfigTool\obj\Debug\netcoreapp3.1\ConfigTool.pdb
 D:\ProjectHub\MTPS\Config\Tool\ConfigTool\ConfigTool\obj\Debug\netcoreapp3.1\ConfigTool.genruntimeconfig.cache
+D:\ProjectHub\MTPS\Config\Tool\ConfigTool\ConfigTool\obj\Debug\netcoreapp3.1\ConfigTool.csprojAssemblyReference.cache
