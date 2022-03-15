@@ -1,4 +1,4 @@
-﻿索引ID,键盘的keycode,字符串,数组模式1,,,数组模式2,结构体,,,结构体数组模式,,,,,
+索引ID,键盘的keycode,字符串,数组模式1,,,数组模式2,结构体,,,结构体数组模式,,,,,
 UInt32,KeyCode,string,Array_2,UInt32,UInt32,Array_UInt32,Struct_2,UInt32,String,Array_Struct,Struct_2,UInt32,String,UInt32,String
 id,key,testString,,testArray1,testArray1,testArray2,testStruct1,aa,bb,2,testArrayStruct1,cc,dd,cc,dd
 Index_Unique,Index_NoUnique,,,,,,,,,,,,,,
