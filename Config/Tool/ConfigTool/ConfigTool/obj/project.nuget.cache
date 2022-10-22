@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PGk+A/F0FMBemOqwJDA504yZ+hHNa2CanaPY8nNpDbiAMjSDKLpxo8GJ+GIsaUcf5NRnb6iOndZqOdP1NAFH8A==",
+  "dgSpecHash": "RtFHVPjQSDmGAMnAHs6ga9xFuQsn6ZsMjRRM290oBtpRgApoT+Snpx2/92OtjR2VxoAqGFrHafScqJYtKZf3Aw==",
   "success": true,
-  "projectFilePath": "D:\\ProjectHub\\MTPS\\Config\\Tool\\ConfigTool\\ConfigTool\\ConfigTool.csproj",
+  "projectFilePath": "D:\\ProjectHub\\DJConfigSystem\\Config\\Tool\\ConfigTool\\ConfigTool\\ConfigTool.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

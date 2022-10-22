@@ -245,12 +245,14 @@ namespace ConfigTool
             {
                 temp = value ;
             }
-            else if (typeName == "UInt32" || typeName == "Int32" || typeName == "UInt64" || typeName == "Int64")
+            else if (typeName == "UInt32" || typeName == "Int32" || typeName == "UInt64" || typeName == "Int64"
+                || typeName == "Boolean" || typeName == "float" || typeName == "double" )
             {
                 temp = typeName + ".Parse(" + value + ")";
             }
             else
             {
+                
                 temp = "(" + typeName + ")UInt32.Parse(" + value + ")";
             }
             return temp;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjectHub\\MTPS\\Config\\Tool\\ConfigTool\\ConfigTool\\ConfigTool.csproj": {}
+    "D:\\ProjectHub\\DJConfigSystem\\Config\\Tool\\ConfigTool\\ConfigTool\\ConfigTool.csproj": {}
   },
   "projects": {
-    "D:\\ProjectHub\\MTPS\\Config\\Tool\\ConfigTool\\ConfigTool\\ConfigTool.csproj": {
+    "D:\\ProjectHub\\DJConfigSystem\\Config\\Tool\\ConfigTool\\ConfigTool\\ConfigTool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjectHub\\MTPS\\Config\\Tool\\ConfigTool\\ConfigTool\\ConfigTool.csproj",
+        "projectUniqueName": "D:\\ProjectHub\\DJConfigSystem\\Config\\Tool\\ConfigTool\\ConfigTool\\ConfigTool.csproj",
         "projectName": "ConfigTool",
-        "projectPath": "D:\\ProjectHub\\MTPS\\Config\\Tool\\ConfigTool\\ConfigTool\\ConfigTool.csproj",
+        "projectPath": "D:\\ProjectHub\\DJConfigSystem\\Config\\Tool\\ConfigTool\\ConfigTool\\ConfigTool.csproj",
         "packagesPath": "C:\\Users\\Ldj13\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjectHub\\MTPS\\Config\\Tool\\ConfigTool\\ConfigTool\\obj\\",
+        "outputPath": "D:\\ProjectHub\\DJConfigSystem\\Config\\Tool\\ConfigTool\\ConfigTool\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ldj13\\AppData\\Roaming\\NuGet\\NuGet.Config",
