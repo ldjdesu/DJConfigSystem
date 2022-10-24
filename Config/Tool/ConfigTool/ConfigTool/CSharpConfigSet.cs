@@ -257,5 +257,18 @@ namespace ConfigTool
             }
             return temp;
         }
+        public string GetStrAllConfig(string configName)
+        {
+            string temp;
+            temp += "\tpublic List<" + configName + "> GetAllConfig()" + newLine +
+                "\t{" + newLine +
+                "\t\tList<" + configName + "> temp = new List<" + configName + ">(data.Count);" + newLine +
+                "\t\tfor (int i = 0; i < data.Count; i++)" + newLine +
+                "\t\t{" + newLine +
+                "\t\t\ttemp.Add(DeserializeByIndex(i));" + newLine +
+                "\t\t}" + newLine +
+                "\t\treturn temp;" + newLine +
+                "\t}" + newLine;
+        }
     }
 }

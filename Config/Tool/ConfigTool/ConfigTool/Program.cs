@@ -337,9 +337,12 @@ namespace ConfigTool
                     }
                 }
             }
+
             outPut += "\t\t" + configSet.GetEnd();
             outPut += strDicEnd;
             outPut += "\t" + configSet.GetEnd();
+
+            outPut += configSet.GetStrAllConfig(configName);
             outPut += configSet.GetEnd();
             return outPut;
         }

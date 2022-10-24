@@ -28,5 +28,6 @@ namespace ConfigTool
         public string GetDeserialize(string configName);
         public string GetDeserializeEnd();
         public string GetEnd();
+        public string GetStrAllConfig(string configName);
     }
 }
