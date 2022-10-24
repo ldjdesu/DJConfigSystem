@@ -262,7 +262,7 @@ namespace ConfigTool
             string temp="";
             temp += "\tpublic List<" + configName + "DataConfig> GetAllConfig()" + newLine +
                 "\t{" + newLine +
-                "\t\tList<" + configName + "> temp = new List<" + configName + "DataConfig>(data.Count);" + newLine +
+                "\t\tList<" + configName + "DataConfig> temp = new List<" + configName + "DataConfig>(data.Count);" + newLine +
                 "\t\tfor (int i = 0; i < data.Count; i++)" + newLine +
                 "\t\t{" + newLine +
                 "\t\t\ttemp.Add(DeserializeByIndex(i));" + newLine +
