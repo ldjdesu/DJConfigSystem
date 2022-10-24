@@ -21,6 +21,7 @@ namespace ConfigTool
             Model model=new CSharpModel();
             ConfigSet configSet = new CSharpConfigSet();
             Console.WriteLine("Hello World!");
+            
             string csvPath = args[0]+ @".\Data\Csv";
             string cSharpPath = args[0]+ @".\Data\CSharp";
             string md5Path = args[0]+ @".\Data\MD5";

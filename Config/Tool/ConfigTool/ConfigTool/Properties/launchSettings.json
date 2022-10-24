@@ -2,7 +2,7 @@
   "profiles": {
     "ConfigTool": {
       "commandName": "Project",
-      "workingDirectory": "D:\\ProjectHub\\MTPS\\Config\\Tool\\ConfigTool"
+      "workingDirectory": "D:\\DJHub\\DJConfigSystem\\Config\\Tool\\ConfigTool"
     }
   }
 }

@@ -111,4 +111,13 @@ public struct Test_ConfigSet:IDataConfig
 		configDic.Add("id",idDic);
 		configListDic.Add("key",keyListDic);
 	}
+	public List<TestDataConfig> GetAllConfig()
+	{
+		List<Test> temp = new List<TestDataConfig>(data.Count);
+		for (int i = 0; i < data.Count; i++)
+		{
+			temp.Add(DeserializeByIndex(i));
+		}
+		return temp;
+	}
 }
