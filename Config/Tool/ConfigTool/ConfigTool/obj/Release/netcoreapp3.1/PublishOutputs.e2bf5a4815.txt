@@ -1,5 +1,0 @@
-D:\ProjectHub\MTPS\Config\Tool\ConfigTool.exe
-D:\ProjectHub\MTPS\Config\Tool\ConfigTool.dll
-D:\ProjectHub\MTPS\Config\Tool\ConfigTool.deps.json
-D:\ProjectHub\MTPS\Config\Tool\ConfigTool.runtimeconfig.json
-D:\ProjectHub\MTPS\Config\Tool\ConfigTool.pdb

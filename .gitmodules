@@ -1,0 +1,3 @@
+[submodule "Config/Tool/DJConfigTool"]
+	path = Config/Tool/DJConfigTool
+	url = https://github.com/ldjdesu/DJConfigTool
